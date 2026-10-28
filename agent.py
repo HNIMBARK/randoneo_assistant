@@ -85,7 +85,7 @@ def mcp_connection(customer_id):
 
     env = {
     "PATH": os.environ["PATH"],
-    "ANTHROPIC_KEY": os.environ["ANTHROPIC_API_KEY"],
+    "ANTHROPIC_API_KEY": os.environ["ANTHROPIC_API_KEY"],
     "RANDO_CLIENT_ID": customer_id
     }
 
