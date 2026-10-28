@@ -9,10 +9,8 @@ __pycache__/
 *.db
 *.sqlite
 *.sqlite3
+*.sqlite
+*.sqlite-wal
+*.sqlite-journal
+*.sqlite-wal
 .streamlit/secrets.toml
-
-# Mémoire SQLite Randoneo
-randoneo_memory.sqlite
-randoneo_memory.sqlite-wal
-randoneo_memory.sqlite-shm
-randoneo_memory.sqlite-journal
